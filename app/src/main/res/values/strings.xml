@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MineSweeper</string>
+    <string name="title_activity_map_fragment">Map</string>
+    <string name="mines_left">000</string>
+    <string name="easy_btn">Easy</string>
+    <string name="med_btn">Medium</string>
+    <string name="hard_btn">Hard</string>
+    <string name="play_game">PLAY GAME</string>
+    <string name="try_again">Try Again</string>
+    <string name="ldrboards">LEADERBOARDS</string>
+    <string name="minesweeper">MINESWEEPER</string>
+</resources>

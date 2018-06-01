@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:id="@+id/records"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:weightSum="3">
+        <Button
+            android:text="@string/easy_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/easyRecBtn"
+            android:layout_weight="1"/>
+
+        <Button
+            android:text="@string/med_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/MedRecBtn"
+            android:layout_weight="1"/>
+
+        <Button
+            android:text="@string/hard_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/HardRecBtn"/>
+
+
+    </LinearLayout>
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@android:id/list" />
+</LinearLayout>
